@@ -1,0 +1,72 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: plop-utils
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/plop-utils
+
+# Badges to display
+badges:
+  - name: GitHub tag (latest SemVer)
+    image: https://img.shields.io/github/v/tag/hadenlabs/plop-utils.svg?label=latest&sort=semver
+    url: https://github.com/hadenlabs/plop-utils/releases
+  - name: Lint
+    image: https://github.com/hadenlabs/plop-utils/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/plop-utils/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/plop-utils.svg
+    url: https://github.com/hadenlabs/plop-utils/issues
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/plop-utils.svg
+    url: https://github.com/hadenlabs/plop-utils/releases
+
+# Short description of this project
+description: |-
+
+  plop-utils configuration
+
+installation:
+  - 'docs/include/installation/yarn.md'
+  - 'docs/include/installation/npm.md'
+
+usage: |-
+
+  1. Install the [@hadenlabs/plop-utils](https://www.npmjs.com/package/@hadenlabs/plop-utils) package as a dev dependency.
+
+  ```shell
+  yarn add --dev @hadenlabs/plop-utils
+  ```
+
+  2. Create a `plopfile.ts` in the root of your project and setup initial generators.
+
+  ```ts
+  import { setupPlop } from '@hadenlabs/plop-utils'
+  import { NodePlopAPI } from 'plop'
+
+  export default function plopGenerator(plop: NodePlopAPI): void {
+    setupPlop(plop)
+  }
+  ```
+
+  3. Run the generator and follow the instructions that appear in the terminal.
+
+  ```shell
+  yarn plop
+  ```
+
+examples:
+  - 'docs/examples/common.md'
