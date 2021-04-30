@@ -11,3 +11,5 @@ coverage
 .terraform
 *.tpl.md
 *.enc.yaml
+vendor
+out
