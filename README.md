@@ -14,7 +14,7 @@
 
 # plop-utils
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/plop-utils.svg?label=latest&sort=semver)](https://github.com/hadenlabs/plop-utils/releases) [![Lint](https://github.com/hadenlabs/plop-utils/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/plop-utils/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/plop-utils.svg)](https://github.com/hadenlabs/plop-utils/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/plop-utils.svg)](https://github.com/hadenlabs/plop-utils/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/plop-utils?label=latest&sort=semver)](https://github.com/hadenlabs/plop-utils/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/plop-utils/lint-code)](https://github.com/hadenlabs/plop-utils/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/plop-utils)](https://github.com/hadenlabs/plop-utils/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/plop-utils)](https://github.com/hadenlabs/plop-utils/releases)
 
 plop-utils configuration
 
@@ -41,7 +41,7 @@ If you're using [npm](https://www.npmjs.com)
 1. Install the [@hadenlabs/plop-utils](https://www.npmjs.com/package/@hadenlabs/plop-utils) package as a dev dependency.
 
 ```shell
-yarn add --dev @hadenlabs/plop-utils
+  yarn add --dev @hadenlabs/plop-utils
 ```
 
 2. Create a `plopfile.ts` in the root of your project and setup initial generators.
